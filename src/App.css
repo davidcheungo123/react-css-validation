@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  background-color: black;
+}
+
+.text {
+  color: white;
+  line-height: 20px;
+}
+
+.input {
+  width: 50%;
+  height: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  line-height: 5px;
+  flex-direction: column;
+}
+
+.input-item {
+  height: auto;
+  color: white;
+}
+
+
+.result {
+  width: 50%;
+  height: 1024px;
+}
+
+.result-index {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  text-align: center;
+  line-height: 5px;
+}
+
+.result-index-item {
+  height: 128px;
+  color: white;
+  border: 1px solid black;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
